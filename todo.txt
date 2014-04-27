@@ -1,0 +1,23 @@
+
+
+ evol Framework
+	Genotype	- The individual to mutate
+	Phenotype	- Evaluation of individual
+	Populus		- bunch if indivs
+	Selector	- selects indivs to be altered
+	Alteration	- mutation/crossover
+	TerminalCondition?
+	Creator		- creates genotypes/populations
+
+	how selector and alteration work together?
+	pass a list of indivs?
+	what if list is too short?
+		foolproof alteration?
+			possible, flexible
+		extend alteration to specify?
+			hmmm
+
+	where do populations come from?
+		initializer/creator
+			random / specific...
+			passes down genotype?
